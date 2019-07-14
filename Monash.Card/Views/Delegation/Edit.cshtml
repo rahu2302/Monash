@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Scripts/Custom/delegation.search.js"></script>
+
+<div>
+    <div>
+        <button id="save">Save</button>
+        <button id="cancel">Cancel</button>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-12 col-sm-1">
+            <div class="col-md-2 col-sm-1">
+                <label>Transaction Id:</label>
+            </div>
+            <div class="col-md-8 col-sm-1">
+                <input id="transactionid" />
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-md-12 col-sm-1">
+            <label>Employee Id:</label>
+            <input id="employeeid" />
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-md-12 col-sm-1">
+            <label>Employee Name:</label>
+            <input id="employeename" />
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-md-12 col-sm-1">
+            <label>Date:</label>
+            <input type="datetime" data-role="datetime" id="date" />
+        </div>
+    </div>
+
+</>
+
+<script>
+    $(function () {
+        debugger;
+        delegation.search.init();
+    })
+</script>
