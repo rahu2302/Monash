@@ -18,5 +18,10 @@ namespace Monash.Cad.Controllers
         {
             return View();
         }
+
+        public ViewResult Search()
+        {
+            return View();
+        }
     }
 }

@@ -23,6 +23,24 @@ namespace Monash.Cad
                       "~/Scripts/bootstrap.js"));
 
 
+            bundles.Add(new ScriptBundle(virtualPath: "~/bundles/js").Include(
+                "~/Scripts/jquery-3.1.1.min.js",
+                "~/Scripts/bootstrap.min.js",
+                "~/Scripts/bootstrap-progressbar.min.js",
+                "~/Scripts/kendo/kendo.all.min.js",
+                "~/Scripts/kendo/kendo.aspnetmvc.min.js",
+                "~/Scripts/jquery.nicescroll.min.js")
+                );
+
+            bundles.Add(new StyleBundle(virtualPath: "~/Content/kendo/2017.3.1026/css").Include(
+               "~/Content/kendo/kendo.common.min.css",
+               "~/Content/kendo/kendo.default.min.css",
+               "~/Content/kendo/kendo.material.min.css",
+               "~/Content/kendo.custom.css",
+               "~/Content/kendo/kendo.dataviz.min.css",
+               "~/Content/kendo/kendo.dataviz.default.min.css"));
+
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
