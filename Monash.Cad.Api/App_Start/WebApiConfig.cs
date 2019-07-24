@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace Monash.Card.Api
+namespace Monash.Cad.Api
 {
     public static class WebApiConfig
     {

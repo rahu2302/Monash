@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monash.Card.Web", "Monash.Card\Monash.Card.Web.csproj", "{7F1F5772-53E5-48E5-A359-3DD7ACD08F1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monash.Cad.Web", "Monash.Cad\Monash.Cad.Web.csproj", "{7F1F5772-53E5-48E5-A359-3DD7ACD08F1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monash.Card.Api", "Monash.Card.Api\Monash.Card.Api.csproj", "{24794980-1FFA-4502-8E7C-5C5E396DC3C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monash.Cad.Api", "Monash.Cad.Api\Monash.Cad.Api.csproj", "{24794980-1FFA-4502-8E7C-5C5E396DC3C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
